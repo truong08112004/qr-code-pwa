@@ -9,7 +9,6 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "QR Tools - Generator & Scanner",
   description: "Generate QR codes from text/links and scan QR codes with your camera",
-  generator: "v0.app",
   manifest: "/manifest.json",
   themeColor: "#000000",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
@@ -30,6 +29,7 @@ export const metadata: Metadata = {
     "apple-mobile-web-app-status-bar-style": "black-translucent",
     "apple-mobile-web-app-title": "QR Tools",
   },
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
